@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sahrul Rizal</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f3f4f6;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .skills-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .contact-section {
+            background: var(--bg-color);
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Sahrul Rizal</h1>
+        <p>Mahasiswa Sistem Informasi | UI/UX Designer | Software Developer</p>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Mahasiswa semester 6 jurusan Sistem Informasi di Universitas Bakrie dengan IPK 3,35/4,00. 
+            Berpengalaman dalam pengembangan perangkat lunak, UI/UX design, dan analisis bisnis.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Aplikasi Mobile</h3>
+                    <p>Aplikasi mobile menggunakan Flutter</p>
+                    <!-- Tambahkan screenshot atau demo -->
+                </article>
+                <article class="project-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Desain interface menggunakan Figma</p>
+                    <!-- Tambahkan preview desain -->
+                </article>
+                <article class="project-card">
+                    <h3>Dashboard Power BI</h3>
+                    <p>Visualisasi data dan analisis bisnis</p>
+                    <!-- Tambahkan screenshot dashboard -->
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Kemampuan</h2>
+            <div class="skills-section">
+                <div>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>UI/UX Design (Figma, Canva)</li>
+                        <li>Python (Basic)</li>
+                        <li>JavaScript</li>
+                        <li>Power BI</li>
+                        <li>QGIS</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Kepemimpinan</li>
+                        <li>Komunikasi Efektif</li>
+                        <li>Manajemen Waktu</li>
+                        <li>Pemecahan Masalah</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Kontak</h2>
+            <p>Email: Zahrulputra998@gmail.com</p>
+            <p>Telepon: (+62)82297332004</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sahrul-rizal-27274224b/">Sahrul Rizal</a></p>
+        </section>
+    </main>
+</body>
+</html>
+Add portfolio website
